@@ -1,0 +1,84 @@
+a {
+    color: #f4594e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: lightred;
+}
+
+.contact-info .icon a i {
+    color: #f4594e;
+}
+
+#top-navigation li.active a, #top-navigation li:hover a {
+    color: #bedded;
+}
+
+#intro h1 {
+    color: orange;
+}
+
+#intro h2 {
+    color: lightred;
+}
+
+.expand {
+    background: none repeat scroll 0 0;
+    background-color: coral;
+}
+
+#explore a i {
+    color: lightgrey;
+}
+
+a.scroll {
+    display: block;
+    font-family: 'Indie Flower',cursive;
+    font-size: 45px;
+    margin-top: 24px;
+    color: orange;
+}
+
+.work a img {
+    min-height: 240px;
+    max-height: 240px;
+}
+
+.work-info {
+    height: 2.9em;
+}
+
+.work-info a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.work-info a.fullname {
+    float: left;
+    display: block;
+    padding: 0px;
+    margin: 5px;
+    height: 32px;
+}
+
+.work-info a.fullname h6 {
+    margin: 7px 0px 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.work-info a.social {
+    float: left;
+    display: block;
+    margin: 5px;
+}
+.work-info a.social img {
+    height: 32px;
+    max-height: 64px;
+    min-height: 16px;
+    width: 32px;
+}
+
+.no-touch .work:hover img, .touch .work img {
+    top: 0px !important;
+}
